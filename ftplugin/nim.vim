@@ -14,6 +14,7 @@ setlocal foldignore=
 setlocal foldmethod=indent
 setlocal formatoptions-=t formatoptions+=croql
 setlocal include=^\\s*\\(from\\|import\\|include\\)
+setlocal includeexpr=nim#path#IncludeExpr()
 setlocal suffixesadd=.nim
 setlocal keywordprg=:NimDocOf
 setlocal iskeyword=a-z,A-Z,48-57,_
